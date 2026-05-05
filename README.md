@@ -1,6 +1,6 @@
 # LEGIC Backend Engineering Portfolio
 
-This repository contains a curated collection of Java backend patterns and implementations tailored to demonstrate modern, high-performance, and secure backend engineering principles. 
+This repository contains a curated collection of Java backend patterns and implementations tailored to demonstrate modern, high-performance, and secure backend engineering principles.
 
 The project is built on **Java 25 (with preview features)** and leverages core JDK capabilities, minimizing reliance on heavy frameworks to showcase strong foundational knowledge of the JVM, memory models, and networking.
 
@@ -60,8 +60,11 @@ The project is built on **Java 25 (with preview features)** and leverages core J
 * Apache Maven 3.9+
 
 ### Building the Project
+
 To compile the project and download all dependencies, run:
+
 ```bash
 mvn clean install
 ```
+
 *(Note: Because the codebase uses Java 25 preview APIs like `StructuredTaskScope`, the `--enable-preview` compiler flag is automatically injected via the `pom.xml`.)*
